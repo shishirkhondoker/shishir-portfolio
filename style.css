@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.nav-link {
+    transition: background 0.3s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+
+.btn-submit:hover {
+    background-color: #c0e850; 
+    transform: scale(1.05);
+}
+
